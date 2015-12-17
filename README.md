@@ -35,7 +35,7 @@ aliases
   Scload::getSounds($word , $limit , $client_id)
 ```
 
-## Get Sounds by Keywords ..
+## Get Download link from sound url ..
 ```php
   $client_id = '33f65c0e45f566fdfb2eec92e05dffb1' ; // from soundcloud
   $url = 'https://soundcloud.com/almaghribi1/alkahfabkar';
