@@ -29,12 +29,13 @@ aliases
 
 ## Get Sounds by Keywords ..
 ```php
-  $client_id ; // from soundcloud
+  $client_id = '33f65c0e45f566fdfb2eec92e05dffb1' ; // from soundcloud
   Scload::getSounds($word , $limit , $client_id)
 ```
 
 ## Get Sounds by Keywords ..
 ```php
-  $client_id ; // from soundcloud
+  $client_id = '33f65c0e45f566fdfb2eec92e05dffb1' ; // from soundcloud
+  $url = 'https://soundcloud.com/almaghribi1/alkahfabkar';
   Scload::getDownload($url , $client_id)
 ```
