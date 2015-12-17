@@ -15,7 +15,7 @@ class Scload
 		}
 
 		$limit = ($limit != 0 ? $limit : 50 );
-		$api_url = 'http://api.soundcloud.com/tracks.json?client_id={$client_id}&q='.urlencode($key).'&limit='.$limit; 
+		$api_url = 'http://api.soundcloud.com/tracks.json?client_id='.$client_id.'&q='.urlencode($key).'&limit='.$limit; 
 		//get json data from soundcloud API 3 
 		$result = json_decode(file_get_contents($api_url) , true); 
 
@@ -29,7 +29,7 @@ class Scload
 		}
 
 		$url = end((explode('/', $url)));
-        $link = 'https://api.soundcloud.com/tracks/'.$url.'?client_id={$client_id}';
+        $link = 'https://api.soundcloud.com/tracks/'.$url.'?client_id='.$client_id;
         //get json dwonload link from soundcloud API 3 
 		$dwonload_data_link = json_decode(file_get_contents($link) , true); 
 
