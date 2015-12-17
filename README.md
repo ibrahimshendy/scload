@@ -1,4 +1,4 @@
-# scload (Search And Download) From Sound Cloud
+# scload (Search And Download) From SoundCloud
 Scload Search and Download Form Soundcloud By keywords and link
 
 ##Get "Scload"
@@ -25,4 +25,16 @@ providers
 aliases
 ```php
   'Scload'		  => 'Sc\Scload\ScloadServiceProvider',               // end of array
+```
+
+## Get Sounds by Keywords ..
+```php
+  $client_id ; // from soundcloud
+  Scload::getSounds($word , $limit , $client_id)
+```
+
+## Get Sounds by Keywords ..
+```php
+  $client_id ; // from soundcloud
+  Scload::getDownload($url , $client_id)
 ```
