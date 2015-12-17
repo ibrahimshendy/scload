@@ -30,6 +30,8 @@ aliases
 ## Get Sounds by Keywords ..
 ```php
   $client_id = '33f65c0e45f566fdfb2eec92e05dffb1' ; // from soundcloud
+  $limit = 10; // set limit of return result
+  $word = 'any word';
   Scload::getSounds($word , $limit , $client_id)
 ```
 
