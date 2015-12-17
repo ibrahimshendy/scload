@@ -1,0 +1,23 @@
+{
+    "name": "sc/scload",
+    "description": "Scload Search and Download Form Soundcloud By keywords and link",
+    "authors": [
+        {
+            "name": "ibrahim shendy",
+            "email": "4webcoding@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sc\\Scload\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
