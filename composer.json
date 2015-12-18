@@ -2,6 +2,8 @@
     "name": "sc/scload",
     "description": "Scload Search and Download Form Soundcloud By keywords and link",
     "keywords": ["soundcloud", "laravel", "simple", "download", "search"],
+    "homepage": "http://www.takweed.co",
+    "license" : "MIT",
     "authors": [
         {
             "name": "ibrahim shendy",
