@@ -1,6 +1,7 @@
 {
     "name": "sc/scload",
     "description": "Scload Search and Download Form Soundcloud By keywords and link",
+    "keywords": ["soundcloud", "laravel", "simple", "download", "search"],
     "authors": [
         {
             "name": "ibrahim shendy",
